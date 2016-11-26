@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default ()=> {
-  return (
-    <div>
-      dvaaaaaaaaaaaaaa spartaaaaaaaaaaaaaaaaaa
-    </div>
-  )
+export default class Dva extends Component {
+  render() {
+    return (
+      <div>
+        dvaaaaaaaaaaaaaa spartaaaaaaaaaaaaaaaaaa
+      </div>
+    )
+  }  
 }

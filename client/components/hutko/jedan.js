@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default ()=> {
-  return (
-    <div>
-      jedan
-    </div>
-  )
+export default class Jedan extends Component {
+  render() {
+    return (
+      <div>
+        jedan
+      </div>
+    )
+  }
 }
