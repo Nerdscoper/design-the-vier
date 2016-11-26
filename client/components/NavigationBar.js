@@ -3,12 +3,12 @@ import { Link } from 'react-router'
 
 export default ()=> {
   return (
-    <ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/flexbox">Levi Flexbox</Link></li>
-      <li><Link to="/hutko">Hutko</Link></li>
-      <li><Link to="/hutko/jedan">Hutko jedan</Link></li>
-      <li><Link to="/hutko/dva">Hutko dva</Link></li>
-    </ul>
+    <nav className="navbar">
+      <div style={{paddingLeft: '20%'}}><Link to="/" activeClassName="home">Home</Link></div>
+      <div><Link to="/flexbox" activeClassName="active">Levi Flexbox</Link></div>
+      <div><Link to="/hutko" activeClassName="active">Hutko</Link></div>
+      <div><Link to="/hutko/jedan" activeClassName="active">Hutko jedan</Link></div>
+      <div><Link to="/hutko/dva" activeClassName="active">Hutko dva</Link></div>
+    </nav>
   )
 }

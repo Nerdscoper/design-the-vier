@@ -1,5 +1,7 @@
-#flexbox-container {
+#flex-container {
   background-color: steelblue;
+  display: flex;
+  height: 200px;
 }
 
 .child {
