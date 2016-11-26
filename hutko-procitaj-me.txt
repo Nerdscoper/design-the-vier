@@ -1,0 +1,48 @@
+znaci ovako:
+
+taj server folder je gdje se nalazi backend / server code
+to te ne zanima, to sluzi da se podigne stranica i to je napisano
+u NodeJs (to ti je zapravo Javascript za backend code znaci kao Php,java,c#...)
+
+tebe zanima client folder, moderne web aplikacije se prave u nekim
+od Javascript Frameworka za ovaj projekat uzeo sam React Framework
+on isto tebe sad toliko ne zanima (poslije kad se naucis osnovama onda ces i to uciti)
+
+poenta je samo da se HTML pise u Javascript fajlovima
+znam da je malo zbunjujuce al znaci taj Framework radi na takvom principu i to tebe sad detalji ne zanimaju
+znaci otvoris te fajlove hutko.js
+i ima gdje pise return ( )
+unutra pises HTML CODE!
+samo UPOZORENJE uvjek mora biti jedan TOP element u smislu ne moze ovako
+return (
+  <div>bla bla bla</div>
+  <div>drugi bla ba</div>
+)
+
+uvjek moras rerturnati sve u jednom div npr:
+
+return (
+  <div>
+    <div>bla bla bla</div>
+    <div>drugi bla bla bla</div>
+    <p> jeste i da ...</p>
+  </div>
+)
+znaci sve mora biti zatvoreno u nekom elementu a taj prvi gore primjer imas 2 elementa i ni jedan ih nije vise njih
+
+sto se tice Git moras to imati instalirano i NodeJs na kompjuteru
+i onda uzmes command line-u (ono command prompt gdje kucas komande onaj crni prozoric - stavit cu i sliku)
+navigiras gdje hoces npr c:\moji-projekti\
+i onda ukucas:  ````git clone *url od projekta* imeFolderaKakvoZelis````
+i dobijes: c:\moji-projekti\imeFolderaKakvoZelis
+i onda udjes tu i ukucas npm install
+i sacekas da instalira i onda npm start da se pokrene projekat
+i onda odes na localhost:\8080 u browseru
+
+ako sam ja odradio nekakvi promjena i hoces da pokupis te promjene
+ukcuas git pull i on povuce sve te moje promjene
+kad ti sve izeditujes sacuvas te promjene i git push na svoj acc
+i kad to odradis onda odes na moj acc i na projekat i ima tamo make pull request i napravis taj request
+da ja prihvatim i pokupim te promjene....
+
+naravno za vise o gitu obrati se nekom tutorialu zato sam ti rekao da to prvo savladas....
