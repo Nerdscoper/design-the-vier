@@ -26,7 +26,11 @@ export default {
       {
         test: /\.json/,
         loaders: [ 'json-loader' ]
-      }
+      },
+      {
+        test: /\.scss/,
+        loader: 'style-loader!css-loader!sass-loader?outputStyle=expanded'
+      },
     ]
   },
   resolve: {

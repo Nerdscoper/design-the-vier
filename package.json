@@ -29,9 +29,13 @@
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.0",
     "json-loader": "^0.5.4",
+    "node-sass": "^3.13.0",
     "nodemon": "^1.11.0",
     "react-transform-hmr": "^1.0.4",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.2"
