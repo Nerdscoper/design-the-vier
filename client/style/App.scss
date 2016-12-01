@@ -2,12 +2,26 @@
 @import 'navbar';
 @import 'home';
 
+
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
-html, body {
+html,
+body {
+
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e9/00/5c/e9005c830342a839b6e259be4b0c02ed.jpg");
+      background-color: #cccccc;
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Arial', cursive;
+
 }
+#meho
+{
+  color: red;
+}
+
+#tabela
+table, th, td {
+    border: 5px solid blue;}
