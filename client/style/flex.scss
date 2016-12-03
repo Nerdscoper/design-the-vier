@@ -2,10 +2,11 @@
   background-color: steelblue;
   display: flex;
   height: 200px;
+  flex-flow: row wrap; //first value goes for flex-direction second one for flex-wrap
 }
 
 .flex-child {
-  width: 100px;
+  width: 300px;
 }
 
 .child1 {
