@@ -35,11 +35,11 @@ export default class Hutko extends Component {
           <a href="https://www.facebook.com/igramzandara?fref=ts">  <li>BENJO-klikni</li></a></b>
         </ul>
         <center>
-          <iframe width="854" height="480" src="https://www.youtube.com/embed/X7xOB694V2U" frameborder="0" allowfullscreen></iframe>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/X7xOB694V2U" frameBorder="0" allowFullScreen></iframe>
         </center>
         <b/>
           <center>
-            <iframe src="//giphy.com/embed/daUOBsa1OztxC" width="200" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <iframe src="//giphy.com/embed/daUOBsa1OztxC" width="200" height="100" frameBorder="0" allowFullScreen></iframe>
             <p><a href="http://giphy.com/gifs/car-bad-tesla-daUOBsa1OztxC">GIF</a></p>
           </center>
       </div>
