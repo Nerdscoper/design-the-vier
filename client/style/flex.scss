@@ -1,12 +1,13 @@
 #flex-container {
-  background-color: steelblue;
+  background-color: black;
   display: flex;
   height: 200px;
   flex-flow: row wrap; //first value goes for flex-direction second one for flex-wrap
+  justify-content: space-between;
 }
 
 .flex-child {
-  width: 300px;
+  width: 100px;
 }
 
 .child1 {
@@ -18,5 +19,17 @@
 }
 
 .child3 {
+  background-color: green;
+}
+
+.child4 {
+  background-color: gold;
+}
+
+.child5 {
+  background-color: red;
+}
+
+.child6 {
   background-color: $levi-color;
 }
