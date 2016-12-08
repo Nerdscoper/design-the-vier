@@ -1,0 +1,31 @@
+#flex-basis-container {
+  background-color: bisque;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fb-child {
+  height: 100px;
+}
+
+.fb-child1 {
+  background-color: coral;
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.fb-child2 {
+  background-color: crimson;
+  //flex-basis: 300px;
+  //flex-grow: 8;
+  //flex-shrink: 5;
+  flex: 8 6 300px; //grow shrink basis
+}
+
+.fb-child3 {
+  background-color: darkviolet;
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
