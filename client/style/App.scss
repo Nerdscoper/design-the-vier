@@ -7,21 +7,116 @@
 
 html,
 body {
+  font-size:62,5%;
+    margin:0;
+    padding:0;
+    background-attachment: fixed;
+       background-image: -webkit-linear-gradient( top, #000, gray);
+       background-image: -moz-linear-gradient( top, #000, gray);
+       background-image: -ms-linear-gradient( top, #000, gray);
+       background-image: -o-linear-gradient( top, #000, gray);
+       background-image: linear-gradient( top, #000, gray);
 
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e9/00/5c/e9005c830342a839b6e259be4b0c02ed.jpg");
-      background-color: #cccccc;
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: 'Arial', cursive;
+
 
 }
+
+#pozadina {
+
+  background-image: url("http://webneel.com/wallpaper/sites/default/files/images/07-2013/flowers-beautiful-wallpaper.jpg");
+  background-attachment: fixed;
+  opacity: 0,9;
+font-size: 1.6em;
+padding:2em;
+margin:0 auto;
+width: 900px;
+height:2000px;
+background-color:white;
+
+
+
+
+}
+
 #meho
 {
   color: red;
 }
 
+
 #tabela
-table, th, td {
+   table, th, td {
     border: 5px solid blue;}
+
+
+
+#slika
+    img {
+      -webkit-transform: rotate( 7deg);
+        -moz-transform: rotate( 7deg);
+        -ms-transform: rotate( 7deg);
+        transform: rotate( 7deg);
+
+      float:right;
+      margin:10px;
+      border:5px solid black;
+      border-radius:20%;
+    }
+#copyrights {
+width: auto;
+
+}
+
+
+
+
+#www
+    {
+font-family: fantasy;
+text-shadow: 5px 5px 5px gray;
+
+    }
+
+
+
+#youtube
+iframe {
+  border:5px solid black;
+    border-radius:50%;
+    padding:5px;
+
+}
+
+#naslov
+ {
+font-size: 200%;
+font-family: 'Lobster', cursive;
+margin-bottom:0;
+text-shadow: 9px 9px 9px gray;
+
+}
+
+
+#text{
+font-family:cursive;
+  font-size: 20px;
+  margin:10px;
+}
+
+
+ul {
+  font-size: 15px;
+  padding:20px;
+  margin-left: 0;
+  list-style-type: none;
+list-style-image: url("http://icons.iconarchive.com/icons/reclusekc/kulo/24/Skull-1-icon.png");
+}
+
+
+a:link,a:visited{
+text-decoration: none;
+}
+
+a:hover{
+  background-color: skyblue;
+}
