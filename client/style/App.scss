@@ -1,12 +1,20 @@
+@import 'variables';
 @import 'flex';
 @import 'navbar';
 @import 'home';
+<<<<<<< HEAD
 @import 'hutkop';
+=======
+@import 'jedan';
+@import 'flex-basis';
+>>>>>>> upstream/master
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
+//nemoj unositi ovdje nista bona, samo importujes gore
 html,
 body {
+<<<<<<< HEAD
   font-size:62,5%;
     margin:0;
     padding:0;
@@ -19,4 +27,11 @@ body {
 
 
 
+=======
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Indie Flower'
+>>>>>>> upstream/master
 }
